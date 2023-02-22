@@ -15,7 +15,7 @@
 ### Screenshot
 
 <p align="left">
-<img src="https://user-images.githubusercontent.com/13468728/220762790-6718772e-5ce1-4536-bc8a-5538c11dc8df.jpg" title="Lyrics Search" alt="Lyrics Search" width="600" height="400"/>
+<img src="https://user-images.githubusercontent.com/13468728/220762790-6718772e-5ce1-4536-bc8a-5538c11dc8df.jpg" title="Lyrics Search" alt="Lyrics Search" width="800" height="500"/>
 </p>
 
 ### Links
