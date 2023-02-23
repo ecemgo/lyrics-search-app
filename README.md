@@ -2,15 +2,17 @@
 
 ## Overview
 
+This is an app where users can search for lyrics by entering the name of an artist or song title. These are listed through the Fetch API depending on the keyword entered. Unfortunately, Lyrics.ovh used as an API is not working, so even if users reach the list, they will not be able to access the lyrics when they want to get the lyrics from the list. Consequently, the app will be updated when a similar service API is found.
+
+### Link
+
+- [Live Site URL](https://ecemgo-lyrics-search-app.netlify.app)
+
 ### Screenshot
 
 <p align="left">
 <img src="https://user-images.githubusercontent.com/13468728/220762790-6718772e-5ce1-4536-bc8a-5538c11dc8df.jpg" title="Lyrics Search" alt="Lyrics Search" width="800" height="500"/>
 </p>
-
-### Links
-
-- [Live Site URL](https://ecemgo-lyrics-search-app.netlify.app)
 
 ## The process
 
