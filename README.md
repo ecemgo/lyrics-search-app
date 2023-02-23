@@ -37,6 +37,7 @@
 - [Public Demo Server](https://github.com/Rob--W/cors-anywhere/issues/301) - It helped me to find and use a new public demo server because cors-anywhere.herokuapp.com has not worked for a while.
 - [Udemy](https://www.udemy.com/course/web-projects-with-vanilla-javascript/) - Brad Traversy's course called '20 Web Projects With Vanilla JavaScript' helped me to understand the concept.
 - [Flex Direction Column](https://dirask.com/posts/CSS-justify-content-in-flexbox-flex-direction-column-DNbAJD), [Flex Direction Row](https://dirask.com/posts/CSS-justify-content-in-flexbox-flex-direction-row-1enA8D) - It helped me to understand the flex directions and it considerably avoided confusion.
+- [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/align-content) - It helped me to understand the flexbox concept and apply the necessary features.
 - [Codepen](https://codepen.io/pirrera/pen/bqVeGx) - It helped me to give the style to the buttons.
 
 ## Author
