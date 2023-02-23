@@ -1,15 +1,5 @@
 # Lyrics Search App
 
-## Table of contents
-
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-
 ## Overview
 
 ### Screenshot
@@ -22,7 +12,7 @@
 
 - [Live Site URL](https://ecemgo-lyrics-search-app.netlify.app)
 
-## My process
+## The process
 
 ### Built with
 
