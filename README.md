@@ -42,6 +42,6 @@
 
 ## Author
 
-- Website - [ecemgo.com](https://www.ecemgo.com/)
-- Twitter - [@ecemgo](https://twitter.com/ecemgo)
-- Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
+- Website - <a href="https://www.ecemgo.com/" target="_blank">ecemgo.com</a>
+- Twitter - <a href="https://twitter.com/ecemgo" target="_blank">@ecemgo</a> 
+- Frontend Mentor - <a href="https://www.frontendmentor.io/profile/ecemgo" target="_blank">@ecemgo</a>
