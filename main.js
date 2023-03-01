@@ -5,6 +5,13 @@ const search = document.getElementById("search");
 const result = document.getElementById("result");
 const more = document.getElementById("more");
 
+var modal = document.getElementById("modal");
+var modalinfo = document.getElementById("modalinfo");
+var btn = document.getElementById("open-modal-btn");
+var closebtn = document.getElementsByClassName("close")[0];
+var closeinfobtn = document.getElementsByClassName("closeinfo")[0];
+const overlay = document.querySelector(".overlay");
+
 const apiURL = "https://api.lyrics.ovh";
 
 //! Search by song or artist
@@ -25,23 +32,6 @@ async function searchSongs(term) {
 //! Show song and artist in DOM
 
 function showData(data) {
-  // ?   let output = "";
-
-  // ?   data.data.forEach((song) => {
-  // ?     output += `
-  // ?         <li>
-  // ?             <span><strong>${song.artist.name}</strong> - ${song.title}</span>
-  // ?             <button class="btn" data-artist="${song.artist.name}" data-songtitle="${song.title}">Get Lyrics</button>
-  // ?         </li>
-  // ?         `;
-  // ?     });
-
-  // ?  result.innerHTML = `
-  // ?   <ul class="songs">
-  // ?    ${output}
-  // ?   </ul>
-  // ?  `;
-
   result.innerHTML = `
     <ul class="songs">
         ${data.data
@@ -50,7 +40,7 @@ function showData(data) {
               `
                 <li>
                     <span><strong>${song.artist.name}</strong> - ${song.title}</span>
-                    <button class="btn" data-artist="${song.artist.name}" data-songtitle="${song.title}">Get Lyrics</button>
+                    <button id="open-modal-btn" class="btn" data-artist="${song.artist.name}" data-songtitle="${song.title}">Get Lyrics</button>
                 </li>
                 `
           )
@@ -95,8 +85,8 @@ async function getLyrics(artist, songTitle) {
 
   const lyrics = data.lyrics;
   if (lyrics === undefined) {
-    alert("Lyrics does not exist in this API");
-    console.log("Lyrics does not exist in this API");
+    // alert("Lyrics does not exist in this API");
+    openModalInfo();
   } else {
     const lyrics = data.lyrics.replace(/(\r\n|\r|\n)/g, "<br>");
     //   const lyrics = data.lyrics.split("\n").join("<br>");
@@ -117,7 +107,8 @@ form.addEventListener("submit", (e) => {
   // console.log(searchTerm);
 
   if (!searchTerm) {
-    alert("Please type in a search term");
+    // alert("Please type in a search term");
+    openModal();
   } else {
     searchSongs(searchTerm);
   }
@@ -135,3 +126,29 @@ result.addEventListener("click", (e) => {
     getLyrics(artist, songTitle);
   }
 });
+
+//! When the user clicks on <span> (x) on modal, close the modal
+
+closebtn.onclick = function () {
+  modal.style.display = "none";
+  overlay.classList.add("hidden");
+};
+
+//! When the user clicks on <span> (x) on modal info, close the modal
+
+closeinfobtn.onclick = function () {
+  modalinfo.style.display = "none";
+  overlay.classList.add("hidden");
+};
+
+//! open modal function
+const openModal = function () {
+  modal.style.display = "block";
+  overlay.classList.remove("hidden");
+};
+
+//! open modalInfo function
+const openModalInfo = function () {
+  modalinfo.style.display = "block";
+  overlay.classList.remove("hidden");
+};
