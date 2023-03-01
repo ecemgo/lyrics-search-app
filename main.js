@@ -139,6 +139,7 @@ closebtn.onclick = function () {
 closeinfobtn.onclick = function () {
   modalinfo.style.display = "none";
   overlay.classList.add("hidden");
+  window.location.reload();
 };
 
 //! open modal function
