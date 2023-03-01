@@ -10,9 +10,11 @@ This is an app where users can search for lyrics by entering the name of an arti
 
 ### Screenshot
 
-<p align="left">
-<img src="https://user-images.githubusercontent.com/13468728/220762790-6718772e-5ce1-4536-bc8a-5538c11dc8df.jpg" title="Lyrics Search" alt="Lyrics Search" width="800" height="500"/>
-</p>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/13468728/222134034-973ccff3-a403-457d-ab95-de9ed888a6c0.jpg" title="Lyrics Search" alt="Lyrics Search" width="800" height="500"/>
+<img src="https://user-images.githubusercontent.com/13468728/222134288-ba5870c9-f3f9-459a-a39a-3b4bda3652bc.jpg" title="Lyrics Search" alt="Lyrics Search" width="800" height="500"/>
+<img src="https://user-images.githubusercontent.com/13468728/222134484-0f26b33c-0e30-4ed1-acf0-24f10736e826.jpg" title="Lyrics Search" alt="Lyrics Search" width="800" height="500"/>
+</div>
 
 ## The process
 
