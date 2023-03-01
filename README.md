@@ -11,9 +11,9 @@ This is an app where users can search for lyrics by entering the name of an arti
 ### Screenshot
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/13468728/222134034-973ccff3-a403-457d-ab95-de9ed888a6c0.jpg" title="Lyrics Search" alt="Lyrics Search" width="800" height="500"/>
-<img src="https://user-images.githubusercontent.com/13468728/222134288-ba5870c9-f3f9-459a-a39a-3b4bda3652bc.jpg" title="Lyrics Search" alt="Lyrics Search" width="800" height="500"/>
-<img src="https://user-images.githubusercontent.com/13468728/222134484-0f26b33c-0e30-4ed1-acf0-24f10736e826.jpg" title="Lyrics Search" alt="Lyrics Search" width="800" height="500"/>
+<img src="https://user-images.githubusercontent.com/13468728/222134034-973ccff3-a403-457d-ab95-de9ed888a6c0.jpg" title="Lyrics Search" alt="Lyrics Search" width="600" height="350"/>
+<img src="https://user-images.githubusercontent.com/13468728/222134288-ba5870c9-f3f9-459a-a39a-3b4bda3652bc.jpg" title="Lyrics Search" alt="Lyrics Search" width="600" height="400"/>
+<img src="https://user-images.githubusercontent.com/13468728/222134484-0f26b33c-0e30-4ed1-acf0-24f10736e826.jpg" title="Lyrics Search" alt="Lyrics Search" width="600" height="450"/>
 </div>
 
 ## The process
@@ -38,4 +38,5 @@ This is an app where users can search for lyrics by entering the name of an arti
 
 - Website - [ecemgo.com](https://www.ecemgo.com/)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
+- Medium - [@ecemgo](https://medium.com/@ecemgo)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
