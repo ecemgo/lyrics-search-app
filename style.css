@@ -123,9 +123,9 @@ form input {
 ///////////////////
 
 .btn {
-  min-width: 130px;
+  min-width: 130px !import;
   height: 40px;
-  padding: 10px 20px;
+  padding: 1px 6px;
   margin: 10px;
 }
 
@@ -148,6 +148,10 @@ ul.songs li {
   justify-content: space-between;
   margin-top: 30px;
   margin-left: 10px;
+}
+
+.lyrics-name {
+  width: 350px;
 }
 
 .container {
@@ -183,8 +187,28 @@ ul.songs li {
     width: 500px;
   }
 
+  .lyrics-name {
+    width: 350px;
+  }
+
   .btn {
-    max-width: 110px;
+    max-width: 130px;
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 642px) {
+  .container-box {
+    width: 480px;
+  }
+
+  .lyrics-name {
+    width: 200px;
+  }
+
+  .btn {
+    max-width: 130px;
     font-size: 1rem;
     padding: 10px 20px;
   }
@@ -193,13 +217,17 @@ ul.songs li {
 @media only screen and (max-width: 535px) {
   .container-box {
     width: 400px;
-    margin-top: 150px;
   }
 
   ul.songs li {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+  }
+
+  .lyrics-name {
+    width: 200px;
+    text-align: center;
   }
 
   .btn {
@@ -219,8 +247,6 @@ ul.songs li {
 @media only screen and (max-width: 433px) {
   .container-box {
     width: 400px;
-    margin-top: 150px;
-    /* padding: 10px; */
   }
 
   ul.songs li {
@@ -253,7 +279,6 @@ ul.songs li {
 
   .container-box {
     max-width: 340px;
-    margin-top: 150px;
   }
 
   .container {
@@ -288,7 +313,6 @@ ul.songs li {
 
   .container-box {
     max-width: 310px;
-    margin-top: 150px;
   }
 
   .search-btn {
@@ -324,10 +348,6 @@ ul.songs li {
 
   .container-box {
     max-width: 280px;
-    margin-top: 150px;
-  }
-
-  .container-box {
     margin: 20px;
   }
 }
@@ -343,7 +363,6 @@ ul.songs li {
 
   .container-box {
     max-width: 260px;
-    margin-top: 150px;
   }
 }
 

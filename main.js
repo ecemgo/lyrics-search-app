@@ -39,7 +39,7 @@ function showData(data) {
             (song) =>
               `
                 <li>
-                    <span><strong>${song.artist.name}</strong> - ${song.title}</span>
+                    <span class="lyrics-name"><strong>${song.artist.name}</strong> - ${song.title}</span>
                     <button id="open-modal-btn" class="btn" data-artist="${song.artist.name}" data-songtitle="${song.title}">Get Lyrics</button>
                 </li>
                 `
