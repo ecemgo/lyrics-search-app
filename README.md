@@ -1,4 +1,4 @@
-# Lyrics Search App
+# <img src="https://user-images.githubusercontent.com/13468728/222973336-c6519851-27db-49c5-9b98-795c7d96ed39.png" title="Lyrics Search" alt="Lyrics Search" width="50" height="50"/> Lyrics Search App
 
 ## Overview
 
