@@ -33,19 +33,19 @@ body {
 }
 
 .container-box {
-  max-width: 800px;
-  margin: 120px 10%;
-  padding: 30px 60px;
-  border-radius: 30px;
+  max-width: 50rem;
+  margin: 7.5rem 10%;
+  padding: 1.875rem 3.75rem;
+  border-radius: 1.875rem;
   background: rgba(255, 255, 255);
   box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.6);
 }
 
 button {
   cursor: pointer;
-  min-width: 120px;
-  height: 45px;
-  margin-left: 10px;
+  min-width: 7.5rem;
+  height: 2.813rem;
+  margin-left: 0.625rem;
   color: #fff;
   font-family: "Quicksand", sans-serif;
   font-size: 1rem;
@@ -53,10 +53,10 @@ button {
   text-align: center;
   text-transform: uppercase;
   border: none;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   transition: 0.5s;
   background-size: 200% auto;
-  box-shadow: 0 0 20px #eee;
+  box-shadow: 0 0 1.25rem #eee;
   background-image: linear-gradient(
     to right,
     #f29bd9 0%,
@@ -91,7 +91,7 @@ header * {
 }
 
 header h1 {
-  margin: 20px 0 40px;
+  margin: 1.25rem 0 2.5rem;
   font-size: 3rem;
   font-family: "Quicksand", sans-serif;
   color: #81a3de;
@@ -100,25 +100,24 @@ header h1 {
 
 form {
   position: relative;
-  width: 500px;
+  width: 31.25rem;
   max-width: 100%;
 }
 
 form input {
   border: 0;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   font-size: 1rem;
-  padding: 15px 20px;
+  padding: 0.938rem 1.25rem;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
 .search-btn {
   position: absolute;
-  top: 2px;
-  right: 2px;
-  padding: 13px 30px;
-  margin: 10 20px;
+  top: 0.125rem;
+  right: 0.125rem;
+  padding: 0.813rem 1.875rem;
 }
 
 ////////////////////
@@ -126,8 +125,8 @@ form input {
 ///////////////////
 
 .more-btn {
-  height: 30px;
-  padding: 5px 20px;
+  height: 1.875rem;
+  padding: 0.313rem 1.25rem;
   transform: scale(1.1);
 }
 
@@ -140,18 +139,18 @@ ul.songs li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 30px;
-  margin-left: 10px;
+  margin-top: 1.875rem;
+  margin-left: 0.625rem;
 }
 
 .lyrics-name {
-  width: 350px;
+  width: 21.875rem;
 }
 
 .container {
-  margin: 40px auto;
+  margin: 2.5rem auto;
   max-width: 100%;
-  width: 500px;
+  width: 31.25rem;
 }
 
 .container h2 {
@@ -177,30 +176,30 @@ ul.songs li {
 
 @media only screen and (max-width: 678px) {
   .container-box {
-    width: 500px;
+    width: 31.25rem;
   }
 
   .centered {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    min-width: 120px;
+    min-width: 7.5rem;
   }
 }
 
 @media only screen and (max-width: 642px) {
   .container-box {
-    width: 480px;
+    width: 30rem;
   }
 
   .lyrics-name {
-    width: 200px;
+    width: 12.5rem;
   }
 }
 
 @media only screen and (max-width: 535px) {
   .container-box {
-    width: 400px;
+    width: 25rem;
   }
 
   ul.songs li {
@@ -214,14 +213,14 @@ ul.songs li {
   }
 
   .btn {
-    min-width: 180px;
-    margin-top: 5px;
+    min-width: 11.25rem;
+    margin-top: 0.313rem;
   }
 }
 
 @media only screen and (max-width: 406px) {
   .container-box {
-    max-width: 340px;
+    max-width: 21.25rem;
   }
 
   .centered {
@@ -231,40 +230,40 @@ ul.songs li {
   }
 
   .more-btn {
-    margin-top: 10px;
+    margin-top: 0.625rem;
   }
 }
 
 @media only screen and (max-width: 394px) {
   .container-box {
-    max-width: 310px;
+    max-width: 19.375rem;
   }
 }
 
 @media only screen and (max-width: 348px) {
   .container-box {
-    max-width: 280px;
+    max-width: 17.5rem;
   }
 }
 
 @media only screen and (max-width: 325px) {
   .container-box {
-    max-width: 260px;
+    max-width: 16.25rem;
   }
 }
 
 .modal {
   display: none;
   gap: 0.4rem;
-  width: 350px;
+  width: 21.875rem;
   padding: 1.3rem;
-  min-height: 150px;
+  min-height: 9.375rem;
   position: absolute;
   z-index: 2;
   top: 50%;
   background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 15px;
+  border: 0.063rem solid #ddd;
+  border-radius: 0.938rem;
 }
 
 .modal p {
@@ -276,7 +275,7 @@ ul.songs li {
 
 .close {
   color: #aaa;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: bold;
   display: flex;
   flex-direction: row;
@@ -297,7 +296,7 @@ ul.songs li {
 
 .closeinfo {
   color: #aaa;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: bold;
   display: flex;
   flex-direction: row;
@@ -321,7 +320,7 @@ ul.songs li {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(0.188rem);
   z-index: 1;
 }
 
